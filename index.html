@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./bootstrap.css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="goFirst">
+    <h1 class="goFirst__heading">Kim birinchi bo-rish-ga!</h1>
+
+    <form class="form" method="post">
+      <label class="form__label" for="num">Masofa</label>
+      <input class="form-control form__input" id="num" name="number" placeholder="100Km" required>
+
+      <button class="form__button" type="submit">Hisobla</button>
+      <p class="error"></p>
+    </form>
+
+    <ul class="list">
+      <li class="list__item">
+        <img class="item__img" src="./img/people.png" alt="on Foot">
+        <p class="item__name">Piyoda</p>
+        <strong class="item__time item__onFoot">N soat</strong>
+      </li>
+
+      <li class="list__item">
+        <img class="item__img" src="./img/bike.png" alt="bicycle">
+        <p class="item__name">Velosiped</p>
+        <strong class="item__time item__bike">N soat</strong>
+      </li>
+
+      <li class="list__item">
+        <img class="item__img" src="./img/car.png" alt="car">
+        <p class="item__name">Mashina</p>
+        <strong class="item__time item__car">N soat</strong>
+      </li>
+
+      <li class="list__item">
+        <img class="item__img" src="./img/plane.png" alt="plane">
+        <p class="item__name">Samolyot</p>
+        <strong class="item__time item__plane">N soat</strong>
+      </li>
+    </ul>
+  </div>
+  <script src="./js/script.js"></script>
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
