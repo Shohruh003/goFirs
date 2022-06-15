@@ -24,6 +24,7 @@ elForm.addEventListener("submit", function(e) {
   } else {
     elInput.classList.remove("is-invalid");
     elInput.classList.add("is-valid");
+    elError.textContent = null;
   }
 
   function onFoot (num) {
